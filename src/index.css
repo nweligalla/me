@@ -14,3 +14,11 @@
         @apply px-4 cursor-pointer 
     }
 }
+
+.social-icon{
+    @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300
+}
+
+.social-icon a{
+    @apply flex justify-between items-center w-full text-gray-300
+}
