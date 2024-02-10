@@ -1,5 +1,5 @@
 {
-  "homepage":"https://nweligalla.github.io/me",
+  "homepage": "https://nweligalla.github.io/me",
   "name": "me",
   "version": "0.1.0",
   "private": true,
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }
