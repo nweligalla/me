@@ -47,6 +47,12 @@ function Navbar() {
                             <FaLinkedin size={30} />
                         </a>
                     </li>
+                    <li className='social-icon bg-blue-800'>
+                        <a href="/">
+                            Facebook
+                            <FaFacebook size={30} />
+                        </a>
+                    </li>
                     <li className='social-icon bg-[#333]'>
                         <a href="/">
                             Github
