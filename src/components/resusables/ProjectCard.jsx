@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
-function ProjectCard({ projectName, description, time, techStack, company }) {
+function ProjectCard({ projectName, description, time, techStack, associate }) {
 
     useEffect(() => {
         AOS.init({ duration: 1000 })
@@ -18,7 +18,7 @@ function ProjectCard({ projectName, description, time, techStack, company }) {
                         <span className="inline-flex items-center pb-1 my-1 space-x-2 text-sm group dark:border-gray-700">
                             <span className=" text-lg font-bold dark:text-gray-100">{projectName}</span>
                         </span>
-                        <span className=" text-sm">{company}</span>
+                        <span className=" text-sm">{associate}</span>
                     </div>
                     <div>
                         <p>{description}</p>
@@ -34,9 +34,6 @@ function ProjectCard({ projectName, description, time, techStack, company }) {
                     </div>
                 </div>
             </div>
-
-
-
         </li>
     )
 }
