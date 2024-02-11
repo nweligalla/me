@@ -1,10 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { MdOutlineSchool } from "react-icons/md";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 function Education() {
+
+    useEffect(()=>{
+        AOS.init({duration:1000})
+    },[])
+
+
+
     return (
-        <div name='education' className='w-full h-screen'>
+        <div data-aos="fade-up" name='education' className='w-full h-screen'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='section-title'>Education</p>

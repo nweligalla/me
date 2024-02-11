@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 function Home() {
+    useEffect(() => {
+        AOS.init({ duration: 1000 })
+    }, [])
     return (
         <div name='home' className='w-full h-screen'>
 
             {/* container */}
-            <div className="screen-section">
+            <div className="screen-section" data-aos="zoom-in">
                 <p className='text-[#B6BBC4] '>Hi, my name is </p>
                 <p className='text-4xl sm:text-7xl font-bold text-[#F0ECE5]'>Nayana Weligalla </p>
                 <h2 className='text-3xl sm:text-6xl mt-1 font-bold text-[#31304D]'>I.m a Full Stack Developer</h2>

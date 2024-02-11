@@ -38,7 +38,7 @@
 }
 
 body{
-    @apply bg-[#161A30] text-[#B6BBC4]
+    @apply bg-[#161A30] text-[#B6BBC4] min-w-full overflow-x-hidden
 }
 
 .screen-section{

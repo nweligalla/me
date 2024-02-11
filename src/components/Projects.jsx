@@ -7,7 +7,7 @@ function projects() {
         <div name='experience' className='w-full '>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='text-center'>
-                    <p className='section-title '>Work Experience</p>
+                    <p className='section-title '>Projects</p>
                 </div>
                 
                 <div className=" mt-9 mx-auto  dark:text-gray-100">
