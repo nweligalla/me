@@ -20,7 +20,6 @@ function App() {
       <Skills />
       <Projects/>
       <Articles />
-      {/* <Contact /> */}
       <Footer/>
     </h1>
   );
