@@ -52,7 +52,7 @@ function Articles() {
         ]
     };
     return (
-        <div name='work' className='w-[80%] mx-auto'>
+        <div name='work' className='w-[80%] mx-auto h-screen'>
             <div data-aos="zoom-in" className='max-w-[1000px] mx-auto p-4 mt-6 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='section-title'>Articles</p>
