@@ -10,7 +10,7 @@ function Work() {
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='section-title'>Work</p>
-                    <p className='py-6'>// Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsam?</p>
+                    <p className='py-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsam?</p>
                 </div>
                 {/* container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
