@@ -37,3 +37,29 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+
+body{
+    @apply bg-[#142D4C] text-[#9FD3C7]
+}
+
+.screen-section{
+    @apply max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full
+}
+
+
+.skill-card{
+
+    img{
+        @apply w-20 mx-auto
+    }
+
+    p{
+       @apply my-4 
+    }
+
+    @apply border border-[9FD3C7] p-4 hover:scale-110 duration-500
+}
+
+.section-title{
+    @apply text-4xl inline border-b-4 border-[#385170] text-[#ECECEC]  
+}
