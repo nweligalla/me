@@ -6,7 +6,7 @@ function Contact() {
             <form method='POST' action="https://getform.io/f/67774955-b112-4df7-bffe-4c79afbf87d4" className='flex flex-col max-w-[600px] w-full'>
                 <div className='pb-8'>
                     <p className='section-title'>Contact</p>
-                    <p className='py-4'>// Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, accusamus.</p>
+                    <p className='py-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, accusamus.</p>
 
                 </div>
                 <input required className='my-4 p-2 bg-[#ECECEC]' type="text" placeholder='Name' name='name' />
