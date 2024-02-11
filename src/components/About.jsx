@@ -7,7 +7,7 @@ function About() {
         AOS.init({ duration: 1000 })
     }, [])
     return (
-        <div name='about' className='w-full min-h-screen'>
+        <div name='about' className='w-full'>
             <div data-aos="zoom-in" className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
