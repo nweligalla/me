@@ -89,3 +89,7 @@ body{
 
     @apply relative  border-gray-200 dark:border-gray-700
 }
+
+.slick-slide >div{
+    margin:10px 5px;
+}
