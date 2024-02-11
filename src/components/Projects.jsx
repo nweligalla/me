@@ -1,5 +1,4 @@
 import React from 'react'
-import { MdOutlineSchool } from "react-icons/md";
 import ProjectCard from './resusables/ProjectCard';
 
 
@@ -10,11 +9,10 @@ function projects() {
                 <div className='text-center'>
                     <p className='section-title '>Work Experience</p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                </div>
-                <div className="p-8 mx-auto  dark:text-gray-100">
+                
+                <div className=" mt-9 mx-auto  dark:text-gray-100">
                     <ul className="space-y-2">
-                    <ProjectCard
+                        <ProjectCard
                             time={'Jan 2023'}
                             projectName={'Dialog - Samsung Galaxy S24 Pre order platform'}
                             description={'Developed a comprehensive Pre-Order Platform for the Samsung Galaxy S24 launch as a Full Stack Developer. The platform includes a user-friendly pre-order page with an integrated admin panel for efficient user, product and order management.'}
