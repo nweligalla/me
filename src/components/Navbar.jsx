@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaMedium, FaCodepen } from 'react-icons/fa'
+import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png'
@@ -14,7 +15,7 @@ function Navbar() {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-[#9FD3C7]'>
             <div className="">
                 <img className='w-[50px]' src={Logo} alt="" />
             </div>
@@ -43,7 +44,7 @@ function Navbar() {
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="contact" smooth={true} duration={500} >Contact</Link></li>
             </ul>
             {/* social icons */}
-            <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+            <div className="hidden lg:flex fixed flex-col top-[25%] left-0">
                 <ul>
                     <li className='social-icon bg-blue-600'>
                         <a href="/">
@@ -51,16 +52,36 @@ function Navbar() {
                             <FaLinkedin size={30} />
                         </a>
                     </li>
-                    <li className='social-icon bg-blue-800'>
+
+
+                    <li className='social-icon bg-[#181818]'>
                         <a href="/">
-                            Facebook
-                            <FaFacebook size={30} />
+                            Medium
+                            <FaMedium size={30} />
                         </a>
                     </li>
                     <li className='social-icon bg-[#333]'>
                         <a href="/">
                             Github
                             <FaGithub size={30} />
+                        </a>
+                    </li>
+                    <li className='social-icon bg-[#000000]'>
+                        <a href="/">
+                            Codepen
+                            <FaCodepen size={30} />
+                        </a>
+                    </li>
+                    <li className='social-icon bg-[#000000]'>
+                        <a href="/">
+                            X
+                            <FaXTwitter size={30} />
+                        </a>
+                    </li>
+                    <li className='social-icon bg-blue-800'>
+                        <a href="/">
+                            Facebook
+                            <FaFacebook size={30} />
                         </a>
                     </li>
                     <li className='social-icon bg-[#6fc2b0]'>
