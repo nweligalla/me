@@ -38,7 +38,14 @@
 }
 
 body{
-    @apply bg-[#161A30] text-[#B6BBC4] min-w-full overflow-x-hidden
+
+    max-width: 100%;
+    overflow-x: hidden;
+
+    
+    @apply bg-[#161A30] text-[#B6BBC4] min-w-full
+
+    
 }
 
 .screen-section{
