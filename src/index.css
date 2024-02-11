@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @layer base{
     body{
-        @apply font-[Raleway]
+        font-family: 'Roboto Slab', serif;
     }
     li{
         @apply px-4 cursor-pointer 
@@ -61,5 +60,32 @@ body{
 }
 
 .section-title{
-    @apply text-4xl inline border-b-4 border-[#385170] text-[#ECECEC]  
+    @apply text-4xl font-bold inline border-b-4 border-[#385170] text-[#ECECEC]  
+}
+
+.education-timeline{
+
+    li{
+
+        span{
+            @apply text-blue-800 dark:text-blue-300 absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full  ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900
+        }
+
+        h3{
+           @apply mb-1 text-lg font-semibold text-gray-900 dark:text-white 
+        }
+
+        time{
+            @apply block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500
+        }
+
+        p{
+            @apply text-base font-normal text-gray-500 dark:text-gray-400
+        }
+
+        @apply mb-10 ms-6 mx-6
+    }
+
+
+    @apply relative  border-gray-200 dark:border-gray-700
 }
