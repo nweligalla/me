@@ -1,17 +1,12 @@
-import React, { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css'
+import React from 'react'
+
 
 function ProjectCard({ projectName, description, time, techStack, associate }) {
 
-    useEffect(() => {
-        AOS.init({ duration: 1000 })
-    }, [])
-
 
     return (
-        <li data-aos="fade-right">
-            <div className="min-w-[100%] hover:scale-105 duration-200 cu flex items-start space-x-3 bg-[#31304D] p-4">
+        // <li>
+            <div className="min-w-[100%] duration-200 cu flex items-start space-x-3 bg-[#31304D] p-4">
                 <span className="flex items-center mt-1 h-8 text-sm hover:underline">{time}</span>
                 <div className="flex-1 space-y-2">
                     <div className="flex items-center justify-between space-x-4 dark:text-gray-400">
@@ -34,7 +29,7 @@ function ProjectCard({ projectName, description, time, techStack, associate }) {
                     </div>
                 </div>
             </div>
-        </li>
+        // </li>
     )
 }
 
