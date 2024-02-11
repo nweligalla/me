@@ -12,8 +12,8 @@ function Education() {
 
 
     return (
-        <div data-aos="fade-up" name='education' className='w-full h-screen'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div  name='education' className='w-full h-screen'>
+            <div data-aos="fade-up" className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='section-title'>Education</p>
                 </div>

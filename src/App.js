@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Articles from "./components/Articles";
 import Education from "./components/Education";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -19,8 +19,8 @@ function App() {
       <Education />
       <Skills />
       <Projects/>
-      {/* <Work /> */}
-      <Contact />
+      <Articles />
+      {/* <Contact /> */}
       <Footer/>
     </h1>
   );

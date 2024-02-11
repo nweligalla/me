@@ -10,8 +10,8 @@ function Experience() {
     },[])
 
     return (
-        <div data-aos="fade-up" name='experience' className='w-full h-screen text-right'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div  name='experience' className='w-full h-screen text-right'>
+            <div data-aos="fade-up" className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='section-title'>Work Experience</p>
                 </div>
