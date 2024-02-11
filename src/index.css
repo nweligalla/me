@@ -38,7 +38,7 @@
 }
 
 body{
-    @apply bg-[#142D4C] text-[#9FD3C7]
+    @apply bg-[#161A30] text-[#B6BBC4]
 }
 
 .screen-section{
@@ -56,11 +56,11 @@ body{
        @apply my-4 
     }
 
-    @apply border border-[9FD3C7] p-4 hover:scale-110 duration-500
+    @apply border border-[#B6BBC4] p-4 hover:scale-110 duration-500
 }
 
 .section-title{
-    @apply text-4xl font-bold inline border-b-4 border-[#385170] text-[#ECECEC]  
+    @apply text-4xl font-bold inline border-b-4 border-[#B6BBC4] text-[#F0ECE5]  
 }
 
 .education-timeline{
