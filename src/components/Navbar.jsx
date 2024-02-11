@@ -15,7 +15,7 @@ function Navbar() {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-[#F0ECE5]'>
+        <div className='fixed z-50 w-full h-[80px] flex justify-between items-center px-4 text-[#F0ECE5]'>
             <div className="">
                 <img className='w-[50px]' src={Logo} alt="" />
             </div>
@@ -46,7 +46,7 @@ function Navbar() {
             {/* social icons */}
             <div className="hidden lg:flex fixed flex-col top-[25%] left-0">
                 <ul>
-                    <li className='social-icon bg-blue-600'>
+                    <li className='social-icon bg-[#0077B5]'>
                         <a href="/">
                             Linkedin
                             <FaLinkedin size={30} />
@@ -54,31 +54,31 @@ function Navbar() {
                     </li>
 
 
-                    <li className='social-icon bg-[#181818]'>
+                    <li className='social-icon bg-[#292929]'>
                         <a href="/">
                             Medium
                             <FaMedium size={30} />
                         </a>
                     </li>
-                    <li className='social-icon bg-[#333]'>
+                    <li className='social-icon bg-[#24292e]'>
                         <a href="/">
                             Github
                             <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='social-icon bg-[#000000]'>
+                    <li className='social-icon bg-[#1E1F26]'>
                         <a href="/">
                             Codepen
                             <FaCodepen size={30} />
                         </a>
                     </li>
-                    <li className='social-icon bg-[#000000]'>
+                    <li className='social-icon bg-[#000]'>
                         <a href="/">
                             X
                             <FaXTwitter size={30} />
                         </a>
                     </li>
-                    <li className='social-icon bg-blue-800'>
+                    <li className='social-icon bg-[#316FF6]'>
                         <a href="/">
                             Facebook
                             <FaFacebook size={30} />
