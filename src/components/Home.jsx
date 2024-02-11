@@ -8,10 +8,10 @@ function Home() {
 
             {/* container */}
             <div className="screen-section">
-                <p className='text-[#ECECEC] '>Hi, my name is </p>
-                <p className='text-4xl sm:text-7xl font-bold text-[#9FD3C7]'>Nayana Weligalla </p>
-                <h2 className='text-3xl sm:text-6xl mt-1 font-bold text-[#385170]'>I.m a Full Stack Developer</h2>
-                <p className='text-[#9FD3C7] py-4 max-w-[700px]'>
+                <p className='text-[#B6BBC4] '>Hi, my name is </p>
+                <p className='text-4xl sm:text-7xl font-bold text-[#F0ECE5]'>Nayana Weligalla </p>
+                <h2 className='text-3xl sm:text-6xl mt-1 font-bold text-[#31304D]'>I.m a Full Stack Developer</h2>
+                <p className='text-[#F0ECE5] py-4 max-w-[700px]'>
                     I am an experienced full-stack software developer with nearly 3 years of expertise in Java, Spring Boot, and Linux. Proficient in designing, implementing, and deploying applications across the complete software development cycle.
                 </p>
                 <div >

@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 
 function App() {
@@ -14,11 +15,12 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Experience/>
-      <Education/>
+      <Experience />
+      <Education />
       <Skills />
-      <Work/>
-      <Contact/>
+      <Projects/>
+      {/* <Work /> */}
+      <Contact />
     </h1>
   );
 }
