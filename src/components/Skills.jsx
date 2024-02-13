@@ -16,9 +16,8 @@ function Skills() {
             <div data-aos="fade-up" className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='section-title'>Skills</p>
-                    <p className='py-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, accusamus.</p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-6 gap-4 text-center py-8'>
+                <div className='w-full grid grid-cols-3 sm:grid-cols-8 gap-4 text-center py-8'>
                     {
                         skills.map(({ name, imgUrl }) => {
                             return (
