@@ -11,7 +11,7 @@ function About() {
             <div data-aos="zoom-in" className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
-                        <p className='section-title'>About</p>
+                        <p className='section-title'>About me</p>
                     </div>
                 </div>
                 <div>
@@ -19,11 +19,11 @@ function About() {
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 pl-4'>
                     <div className='sm:text-right text-4xl font-bold '>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                       Software Engineer / Full Stack Developer
                         </p>
                     </div>
                     <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis possimus, ex nam nemo facere odio, quos minus, reiciendis distinctio quas rerum? Ad, doloribus aut. Id maiores corrupti in aperiam!
+                    I am an experienced full-stack Software Engineer with nearly 3 years of expertise in Java, Spring Boot, and Linux. Proficient in designing, implementing, and deploying applications across the complete software development cycle.
                     </div>
                 </div>
             </div>

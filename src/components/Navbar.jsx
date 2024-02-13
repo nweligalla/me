@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaMedium, FaCodepen } from 'react-icons/fa'
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter,FaHackerrank } from "react-icons/fa6";
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.webp'
 import { Link } from 'react-scroll';
 
@@ -47,7 +46,7 @@ function Navbar() {
             <div className="hidden lg:flex fixed flex-col top-[25%] left-0">
                 <ul>
                     <li className='social-icon bg-[#0077B5]'>
-                        <a href="/">
+                        <a href="https://www.linkedin.com/in/nweligalla/" target='_blank' rel='noreferrer'>
                             Linkedin
                             <FaLinkedin size={30} />
                         </a>
@@ -55,47 +54,48 @@ function Navbar() {
 
 
                     <li className='social-icon bg-[#292929]'>
-                        <a href="/">
+                        <a href="https://medium.com/@nweligalla" target='_blank' rel='noreferrer'>
                             Medium
                             <FaMedium size={30} />
                         </a>
                     </li>
                     <li className='social-icon bg-[#24292e]'>
-                        <a href="/">
+                        <a href="https://github.com/nweligalla" target='_blank' rel='noreferrer'>
                             Github
                             <FaGithub size={30} />
                         </a>
                     </li>
                     <li className='social-icon bg-[#1E1F26]'>
-                        <a href="/">
+                        <a href="https://codepen.io/nweligalla" target='_blank' rel='noreferrer'>
                             Codepen
                             <FaCodepen size={30} />
                         </a>
                     </li>
                     <li className='social-icon bg-[#000]'>
-                        <a href="/">
+                        <a href="https://twitter.com/NWeligalla" target='_blank' rel='noreferrer'>
                             X
                             <FaXTwitter size={30} />
                         </a>
                     </li>
                     <li className='social-icon bg-[#316FF6]'>
-                        <a href="/">
+                        <a href="https://web.facebook.com/nayana.weligalla" target='_blank' rel='noreferrer'>
                             Facebook
                             <FaFacebook size={30} />
                         </a>
                     </li>
-                    <li className='social-icon bg-[#6fc2b0]'>
-                        <a href="/">
+                    <li className='social-icon bg-[#32C766]'>
+                        <a href="https://www.hackerrank.com/profile/nweligalla" target='_blank' rel='noreferrer'>
+                            Hackerank
+                            <FaHackerrank size={30} />
+                        </a>
+                    </li>
+                    <li className='social-icon bg-[#33A9F7]'>
+                        <a href="mailto:nayanaweligalla@gmail.com">
                             Email
                             <HiOutlineMail size={30} />
                         </a>
                     </li>
-                    <li className='social-icon bg-[#565f69]'>
-                        <a href="/">
-                            Resume
-                            <BsFillPersonLinesFill size={30} />
-                        </a>
-                    </li>
+                    
                 </ul>
             </div>
         </div >
