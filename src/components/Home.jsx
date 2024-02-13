@@ -3,6 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-scroll';
 function Home() {
     useEffect(() => {
         AOS.init({ duration: 1000 })
@@ -19,7 +20,9 @@ function Home() {
                         sequence={[
                             'Software Engineer',
                             1000,
-                            'Full Stack Developer',
+                            'Java Full Stack Developer',
+                            1000,
+                            'Web Developer',
                             1000,
                             'Msc. Student',
                             1000,
@@ -33,9 +36,11 @@ function Home() {
                     I am an experienced full-stack Software Engineer with nearly 3 years of expertise in Java, Spring Boot, and Linux. Proficient in designing, implementing, and deploying applications across the complete software development cycle.
                 </p>
                 <div >
-                    <button className='text-[#ECECEC] border-[#ECECEC] group border-2 px-6 py-3 my-2 flex items-center hover:text-[#142D4C] hover:bg-[#9FD3C7] hover:border-[#9FD3C7] duration-200'>
-                        View Work <span className='group-hover:rotate-90 duration-200'><HiArrowNarrowRight className='ml-3' /></span>
-                    </button>
+                    <Link to="about" smooth={true} duration={500} >
+                        <button className='text-[#ECECEC] border-[#ECECEC] group border-2 px-6 py-3 my-2 flex items-center hover:text-[#142D4C] hover:bg-[#9FD3C7] hover:border-[#9FD3C7] duration-200'>
+                            About me <span className='group-hover:rotate-90 duration-200'><HiArrowNarrowRight className='ml-3' /></span>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

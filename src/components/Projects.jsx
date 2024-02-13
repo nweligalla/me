@@ -50,7 +50,7 @@ function Projects() {
 
 
     return (
-        <div name='experience' className='w-full h-screen'>
+        <div name='projects' className='w-full h-screen'>
             <div data-aos="zoom-in" className='max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='text-center'>
                     <p className='section-title '>Projects</p>

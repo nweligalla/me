@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaMedium, FaCodepen 
 import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logo.webp'
 import { Link } from 'react-scroll';
 
 
@@ -17,7 +17,7 @@ function Navbar() {
     return (
         <div className='fixed z-50 w-full h-[80px] flex justify-between items-center px-4 text-[#F0ECE5]'>
             <div className="">
-                <img className='w-[50px]' src={Logo} alt="" />
+                <img className='w-[50px]' src={Logo} alt="logo" />
             </div>
             {/* menu */}
 
@@ -26,8 +26,8 @@ function Navbar() {
                 <li><Link to="home" smooth={true} duration={500} > Home </Link></li>
                 <li><Link to="about" smooth={true} duration={500} >About</Link></li>
                 <li><Link to="skills" smooth={true} duration={500} >Skills</Link></li>
-                <li><Link to="work" smooth={true} duration={500} >Work</Link></li>
-                <li><Link to="contact" smooth={true} duration={500} >Contact</Link></li>
+                <li><Link to="projects" smooth={true} duration={500} >Projects</Link></li>
+                <li><Link to="articles" smooth={true} duration={500} >Articles</Link></li>
             </ul>
 
             {/* menu icon */}
@@ -40,8 +40,8 @@ function Navbar() {
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="home" smooth={true} duration={500} > Home </Link></li>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="about" smooth={true} duration={500} >About</Link></li>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="skills" smooth={true} duration={500} >Skills</Link></li>
-                <li className='py-6 text-4xl'><Link onClick={handleClick} to="work" smooth={true} duration={500} >Work</Link></li>
-                <li className='py-6 text-4xl'><Link onClick={handleClick} to="contact" smooth={true} duration={500} >Contact</Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to="projects" smooth={true} duration={500} >Projects</Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to="articles" smooth={true} duration={500} >Articles</Link></li>
             </ul>
             {/* social icons */}
             <div className="hidden lg:flex fixed flex-col top-[25%] left-0">

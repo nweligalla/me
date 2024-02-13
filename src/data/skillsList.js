@@ -1,63 +1,100 @@
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
-import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
+import HTML from '../assets/html.webp';
+import CSS from '../assets/css.webp';
+import JavaScript from '../assets/javascript.webp';
+import ReactImg from '../assets/react.webp';
+import Node from '../assets/node.webp';
+import Hibernate from '../assets/Hibernate.webp';
+import GitHub from '../assets/github.webp';
+import Tailwind from '../assets/tailwind.webp';
+import Jira from '../assets/jira.webp';
+import Java from '../assets/java.webp';
+import Springboot from '../assets/Springboot.webp';
+import Git from '../assets/git.webp';
+import Mysql from '../assets/mysql.webp';
+import AWS from '../assets/aws.webp';
+import Linux from '../assets/linux.webp';
+import Electron from '../assets/electron.webp';
 
 const skills = [
     {
         "id": 1,
-        "name": "HTML",
-        "imgUrl": HTML
+        "name": "Java",
+        "imgUrl": Java
     },
     {
         "id": 2,
-        "name": "CSS",
-        "imgUrl": CSS
+        "name": "Springboot",
+        "imgUrl": Springboot
     },
     {
         "id": 3,
+        "name": "Hibernate",
+        "imgUrl": Hibernate
+    },
+    {
+        "id": 4,
+        "name": "Linux",
+        "imgUrl": Linux
+    },
+    {
+        "id": 5,
+        "name": "Mysql",
+        "imgUrl": Mysql
+    },
+    {
+        "id": 6,
+        "name": "Git",
+        "imgUrl": Git
+    },
+    {
+        "id": 7,
+        "name": "Jira",
+        "imgUrl": Jira
+    },
+    {
+        "id": 8,
         "name": "JavaScript",
         "imgUrl": JavaScript
     },
     {
-        "id": 4,
-        "name": "React",
-        "imgUrl": ReactImg
-    },
-    {
-        "id": 5,
-        "name": "Node.JS",
-        "imgUrl": Node
-    },
-    {
-        "id": 6,
+        "id": 9,
         "name": "HTML",
         "imgUrl": HTML
     },
     {
-        "id": 7,
-        "name": "FireBase",
-        "imgUrl": FireBase
+        "id": 10,
+        "name": "CSS",
+        "imgUrl": CSS
     },
     {
-        "id": 8,
-        "name": "GitHub",
-        "imgUrl": GitHub
-    },
-    {
-        "id": 9,
+        "id": 11,
         "name": "Tailwind",
         "imgUrl": Tailwind
     },
     {
-        "id": 10,
-        "name": "Tailwind",
-        "imgUrl": Mongo
+        "id": 12,
+        "name": "React",
+        "imgUrl": ReactImg
+    },
+    {
+        "id": 13,
+        "name": "Node.JS",
+        "imgUrl": Node
+    },
+    {
+        "id": 14,
+        "name": "GitHub",
+        "imgUrl": GitHub
+    },
+    {
+        "id": 15,
+        "name": "AWS",
+        "imgUrl": AWS
+    },
+    {
+        "id": 16,
+        "name": "ElectronJS",
+        "imgUrl": Electron
     }
 ];
 
