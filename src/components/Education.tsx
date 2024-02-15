@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import { MdOutlineSchool } from "react-icons/md";
-// import AOS from 'aos';
-// import 'aos/dist/aos.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 function Education() {
 
-    // useEffect(() => {
-    //     AOS.init({ duration: 1000 })
-    // }, [])
+    useEffect(() => {
+        AOS.init({ duration: 1000 })
+    }, [])
 
     return (
         <div className='w-full h-screen'>
