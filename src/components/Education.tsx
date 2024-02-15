@@ -1,23 +1,23 @@
 import React, { useEffect } from 'react'
 import { MdOutlineSchool } from "react-icons/md";
-import AOS from 'aos';
-import 'aos/dist/aos.css'
+// import AOS from 'aos';
+// import 'aos/dist/aos.css'
 
 function Education() {
 
-    useEffect(() => {
-        AOS.init({ duration: 1000 })
-    }, [])
+    // useEffect(() => {
+    //     AOS.init({ duration: 1000 })
+    // }, [])
 
     return (
-        <div name='education' className='w-full h-screen'>
+        <div className='w-full h-screen'>
             <div data-aos="fade-up" className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='section-title'>Education</p>
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 </div>
-                <ol class="education-timeline mx-4 border-s">
+                <ol className="education-timeline mx-4 border-s">
 
                     <li>
                         <span className='-start-3'>

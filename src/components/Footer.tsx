@@ -1,6 +1,5 @@
 import React from 'react'
-import { FaReact, FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaMedium, FaCodepen } from 'react-icons/fa';
-import { FaXTwitter } from "react-icons/fa6";
+import { FaReact} from 'react-icons/fa';
 
 function Footer() {
         return (

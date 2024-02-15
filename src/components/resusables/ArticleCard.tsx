@@ -1,6 +1,14 @@
 import React from 'react'
 
-function ArticleCard({name,url,thumbnail}) {
+
+type Props = {
+  name: string,
+  url: string,
+  thumbnail: string,
+}
+
+
+function ArticleCard({name,url,thumbnail}: Props) {
   return (
     <div style={{ backgroundImage: `url(${thumbnail})` }} className='shadow-lg shadow-[#040c16] group container flex justify-center items-center content-div'>
 

@@ -10,14 +10,14 @@ function Experience() {
     },[])
 
     return (
-        <div  name='experience' className='w-full h-screen text-right'>
+        <div className='w-full h-screen text-right'>
             <div data-aos="fade-up" className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='section-title'>Work Experience</p>
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 </div>
-                <ol class="education-timeline border-e mx-4 ">
+                <ol className="education-timeline border-e mx-4 ">
 
                     <li>
                         <span className='-end-3'>
