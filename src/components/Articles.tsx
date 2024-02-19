@@ -63,9 +63,10 @@ function Articles() {
 
                     <Slider {...settings}>
                         {
-                            articles.map(({ name, url, thumbnail }) => {
+                            articles.map(({ name, url, thumbnail }, index) => {
                                 return (
                                     <ArticleCard
+                                        key={index}
                                         name={name}
                                         url={url}
                                         thumbnail={thumbnail}

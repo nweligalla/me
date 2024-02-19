@@ -27,9 +27,9 @@ function ProjectCard({ projectName, description, time, techStack, associate }: P
                     <p>{description}</p>
                 </div>
                 <div className='pt-2 flex flex-row flex-wrap'>
-                    {techStack.map(function (tech) {
+                    {techStack.map((tech, index) => {
                         return (
-                            <span className="bg-gray-100 m-1 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                            <span key={index} className="bg-gray-100 m-1 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
                                 {tech}
                             </span>
                         )

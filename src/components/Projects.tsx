@@ -59,9 +59,10 @@ function Projects() {
 
                     <div className='w-[90%] mx-auto mt-6'>
                         <Slider {...settings}>
-                            {projectList.reverse().map(({ projectName, description, time, techStack, associate }) => {
+                            {projectList.reverse().map(({ id, projectName, description, time, techStack, associate }) => {
                                 return (
                                     <ProjectCard
+                                        key={id}
                                         time={time}
                                         projectName={projectName}
                                         description={description}
