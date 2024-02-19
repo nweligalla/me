@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @layer base{
     body{
@@ -63,8 +62,23 @@ body{
        @apply my-4 
     }
 
-    @apply border border-[#B6BBC4] p-4 hover:scale-110 duration-500
+    @apply p-4 hover:scale-110 duration-500
 }
+
+
+.badge-card{
+
+    img{
+        @apply w-40 mx-auto
+    }
+
+    p{
+       @apply my-4 
+    }
+
+    @apply p-4 hover:scale-110 duration-500
+}
+
 
 .section-title{
     @apply text-4xl font-bold inline border-b-4 border-[#B6BBC4] text-[#F0ECE5]  

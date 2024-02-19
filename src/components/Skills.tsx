@@ -11,7 +11,7 @@ function Skills() {
     useEffect(() => {
         AOS.init({ duration: 1000 })
     }, [])
-
+ 
 
     return (
         <Element name="skills" >
@@ -22,9 +22,9 @@ function Skills() {
                     </div>
                     <div className='w-full grid grid-cols-3 sm:grid-cols-8 gap-4 text-center py-8'>
                         {
-                            skills.map(({ name, imgUrl }) => {
+                            skills.map(({ name, imgUrl },index) => {
                                 return (
-                                    <div className='skill-card'>
+                                    <div key={index} className='skill-card'>
                                         <img src={imgUrl} alt={name} />
                                         <p >{name}</p>
                                     </div>

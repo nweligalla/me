@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Articles from './components/Articles';
+import Badges from './components/Badges';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Education/>
       <Skills/>
       <Projects/>
+      <Badges/>
       <Articles/>
       <Footer/>
     </div>
