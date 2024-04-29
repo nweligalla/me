@@ -1,5 +1,10 @@
 const articles = [
     {
+        "name": "How (not) to make web designs",
+        "url": "https://medium.com/@nweligalla/how-not-to-make-web-designs-d46793feac6f",
+        "thumbnail": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*9Ze-fCQ2ODZ8PPEByyYnBQ.png"
+    },
+    {
         "name": "Generics In Java-Part 1",
         "url": "https://medium.com/@nweligalla/generics-in-java-part-1-bf5c978d4fc9",
         "thumbnail": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*czqrgnV6WX2KMjrRUbwpZQ.png"
