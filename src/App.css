@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+.oci-logo{
+  margin-top: 13%;
+  transform: scale(1.6);
+}

@@ -20,9 +20,9 @@ function Badges() {
         </div>
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
           {
-            badges.map(({ badgeImg, badgeUrl, badgeName }, index) => {
+            badges.map(({ badgeImg, badgeUrl, badgeName,className }, index) => {
               return (
-                <BadgeCard key={index} imgUrl={badgeImg} url={badgeUrl} name={badgeName} />
+                <BadgeCard key={index} imgUrl={badgeImg} url={badgeUrl} name={badgeName} className={className} />
               )
             })
           }
