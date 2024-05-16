@@ -1,5 +1,10 @@
 const articles = [
     {
+        "name": "Prime Numbers using Java",
+        "url": "https://medium.com/@nweligalla/prime-numbers-using-java-4dc5a57c3779",
+        "thumbnail": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*uBBy-4XY70y6W28uh0kTLw.png"
+    },
+    {
         "name": "How (not) to make web designs",
         "url": "https://medium.com/@nweligalla/how-not-to-make-web-designs-d46793feac6f",
         "thumbnail": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*9Ze-fCQ2ODZ8PPEByyYnBQ.png"
